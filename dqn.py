@@ -22,7 +22,7 @@ class DQN:
         self.gamma = .99
         self.batch_size = 64
         self.epsilon_min = .01
-        self.lr = 0.001
+        self.lr = 0.0003
         self.epsilon_decay = .996
         self.memory = deque(maxlen=1000000)
         self.model = self.build_model()
